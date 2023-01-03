@@ -53,6 +53,7 @@ function App() {
               else if(m.key === 'setting')
                 navigate('/setting');
             }}
+            
             defaultSelectedKeys={[localStorage.getItem('navigate')]}
           />
           <Button type='text' style={{ color: "white", width: "90%", textAlign: "left" }} onClick={() => setShowLogOut(true)}>Log out</Button>
