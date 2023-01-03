@@ -17,7 +17,15 @@
   color: initial !important;
 }
 
+:where(.css-acm2ia) a {
+  color: initial !important;
+}
+
 :where(.css-dev-only-do-not-override-acm2ia).ant-layout {
+  height: 100vh !important;
+}
+
+:where(.css-acm2ia).ant-layout {
   height: 100vh !important;
 }
 
