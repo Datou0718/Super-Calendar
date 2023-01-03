@@ -10,9 +10,6 @@
 - https://wp-final.onrender.com
 - 用 railway 比較快，但他可能撐不到評分的時候（？
 
-**Github Repo:**
-https://github.com/Datou0718/wp_final.git
-
 ## 描述這個服務在做什麼
 
 整合行事曆與 To Do List ，方便規畫個人生活。在行事曆中可依個人喜好，用顏色區分不同類型的事件。在 TO Do List 可直觀的看到最快要截止的事件，也可用 filter 篩選事件類別。完成的事件在 Calendar 中會有刪除線，方便區分是否完成，讓使用者能更專注在未完成的事件上。
