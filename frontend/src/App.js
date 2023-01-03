@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { Route, Routes, useNavigate } from 'react-router-dom';
+import { Route, Routes, useNavigate, useLocation } from 'react-router-dom';
 import { Layout, Menu, Typography, Button } from 'antd';
-import { useState } from 'react';
+import { useState,  useEffect } from 'react';
 
 import LogIn from './containers/LogIn';
 import MyCalendar from './containers/MyCalendar';
@@ -16,8 +16,24 @@ const { Title } = Typography;
 
 function App() {
   const { logIn, me, display } = useCalendar();
-  const navigate = useNavigate();
   const [showLogOut, setShowLogOut] = useState(false);
+  const [key, setKey] = useState('');
+  const navigate = useNavigate();
+  const location = useLocation();
+  console.log(location.pathname);
+  useEffect(() => {
+    if(location.pathname === '/' && logIn === 'true'){
+      navigate('/calendar');
+      setKey('calendar');
+    }else if(location.pathname === '/' && logIn === 'false')
+      navigate('/login');
+    else if(location.pathname === '/calendar')
+      setKey('calendar');
+    else if(location.pathname === '/toDoList')
+      setKey('toDo');
+    else if(location.pathname === '/setting')
+      setKey('setting');
+  }, [location.pathname]);
 
   return (
     logIn === 'true'
@@ -53,8 +69,7 @@ function App() {
               else if(m.key === 'setting')
                 navigate('/setting');
             }}
-            
-            defaultSelectedKeys={[localStorage.getItem('navigate')]}
+            selectedKeys={[key]}
           />
           <Button type='text' style={{ color: "white", width: "90%", textAlign: "left" }} onClick={() => setShowLogOut(true)}>Log out</Button>
         </Sider>
