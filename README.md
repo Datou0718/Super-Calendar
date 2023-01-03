@@ -5,9 +5,10 @@
 **Demo 影片連結:**
 
 **Deploy 連結:**
-wpfinal-production.up.railway.app
-https://wp-final.onrender.com
-用 railway 比較快，但他可能撐不到評分的時候（？
+
+- wpfinal-production.up.railway.app
+- https://wp-final.onrender.com
+- 用 railway 比較快，但他可能撐不到評分的時候（？
 
 **Github Repo:**
 https://github.com/Datou0718/wp_final.git
