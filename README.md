@@ -3,6 +3,7 @@
 ## (Group 70) 超級行事曆
 
 **Demo 影片連結:**
+https://drive.google.com/file/d/1KTXN7gP_SFMYQnwzEqC4-Iq5DOMPBfZH/view?usp=sharing
 https://youtu.be/WtA7uUGoXvw
 
 **Deploy 連結:**
