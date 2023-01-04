@@ -76,7 +76,7 @@ const Setting = () => {
                 handleEdit()
             }}
           ></input>
-          <p style={{color: "red", visibility: confirmFlag}}>Error: display name can't be empty!</p>
+          <p style={{color: "red", visibility: confirmFlag}}>Error: password can't be empty!</p>
         </div>
         <div className='edit_btn' onClick={handleEdit} >Submit</div>
       </div>
