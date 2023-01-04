@@ -3,8 +3,10 @@
 ## (Group 70) 超級行事曆
 
 **Demo 影片連結:**
-https://drive.google.com/file/d/1KTXN7gP_SFMYQnwzEqC4-Iq5DOMPBfZH/view?usp=sharing
-https://youtu.be/WtA7uUGoXvw
+
+- https://youtu.be/WtA7uUGoXvw
+- https://drive.google.com/file/d/1KTXN7gP_SFMYQnwzEqC4-Iq5DOMPBfZH/view?usp=sharing
+- 建議使用 youtube 畫質較高
 
 **Deploy 連結:**
 
@@ -137,4 +139,4 @@ https://youtu.be/WtA7uUGoXvw
 
 #### 吳岱凌
 
-這次的final project我是負責後面的demo影片以及測錯的工作，在程式碼部分沒有貢獻那麼多，但在最後的統整以及試圖呈現整個作品的過程中，我深刻的了解要完成一項全端作品的難度所在：從前端的html和css的架構到後端連接，再到最後的美化和側錯的環節，每一項都相當的耗時且花費耐心，這次的作業統整了我整個學期以來許多茫然的知識，因為之前的作業都是要求我們完成部分的內容，而藉由完成整份全端project，我的理解也更加通徹。很慶幸有兩位厲害的組員帶領完成整份project，也很期待我們的這個作品可以在未來可以更加完善並且真正解決現有行事曆和代辦事項所遇到的障礙。
+這次的 final project 我是負責後面的 demo 影片以及測錯的工作，在程式碼部分沒有貢獻那麼多，但在最後的統整以及試圖呈現整個作品的過程中，我深刻的了解要完成一項全端作品的難度所在：從前端的 html 和 css 的架構到後端連接，再到最後的美化和側錯的環節，每一項都相當的耗時且花費耐心，這次的作業統整了我整個學期以來許多茫然的知識，因為之前的作業都是要求我們完成部分的內容，而藉由完成整份全端 project，我的理解也更加通徹。很慶幸有兩位厲害的組員帶領完成整份 project，也很期待我們的這個作品可以在未來可以更加完善並且真正解決現有行事曆和代辦事項所遇到的障礙。
